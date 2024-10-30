@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.navbar {
+    background-color: #1b1a1aad;
+    color: white;
+    padding: 20px 25px;
+
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.navbar .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+
+.navbar .nav-links li a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.hero {
+    height: 80vh;
+    background-color: #E8F1F2;
+    text-align: center;
+    align-items: center;
+    background: url('film.jpg');
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.hero h1 {
+    padding-top: 150px;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-bottom: 50px;
+    color: white
+}
+
+.cta-button {
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: #000000;
+    font-weight: bold;
+    border-radius: 5px;
+    border: solid #000000ad;
+    border-style: groove;
+
+}
+
+.features {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #FFF;
+}
+
+.feature-column {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.feature-box {
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+    padding: 40px 20px;
+    background: url("film.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: white;
+}
+
+.about p {
+    max-width: 750px;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 20px;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.contact p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+    color: black;
+    max-width: 750px;
+
+}
+
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
